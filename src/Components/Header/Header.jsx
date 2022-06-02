@@ -4,24 +4,18 @@ import "./Header.css";
 export const Header = () => {
   return (
     <div className="Header">
-      {/* <video
+      <video
         src="/videos/intro-hacking-video.mp4"
         autoPlay
         loop
         muted
-      /> */}
-      <img src="/videos/anonymous.jpg" alt="" />
+      />
+      {/* <img src="/videos/anonymous.jpg" alt="" /> */}
       <div className="HeaderTitles">
         <span className="HeaderTitleSmall">Dungy's</span>
         <span className="HeaderTitleLarge">Blog</span>
       </div>
-      {/* <video
-        className="HeaderImg"
-        src="/videos/intro-hacking-video.mp4"
-        autoPlay
-        loop
-        muted
-      /> */}
+      
     </div>
   );
 };
