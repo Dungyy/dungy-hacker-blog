@@ -1,64 +1,68 @@
-.login {
+.register {
   height: calc(100vh - 50px);
   display: flex;
   align-items: center;
   flex-direction: column;
   justify-content: center;
-  background: url('https://wallpapercave.com/wp/wp2630317.jpg');
+  background: url('https://3.bp.blogspot.com/-GQdXZYTeY80/WAsinlu3UaI/AAAAAAAAHpE/4VNvl3IVdW8IPCnHfvpHdbRYQ6dKlY-7wCLcB/s1600/Hacker%2BBackground%2B1.jpg');
   /* background: url("../../../public/Img/anonymous.jpg"); */
   background-size: cover;
 }
 
-.loginTitle {
+.registerTitle {
     font-size: 50px;
     background-color: transparent;
     color: aliceblue;
     font-family: fantasy;
-
+    /* background-color: rgb(37, 32, 32);
+    padding: 15px;
+    border-radius: 15px; */
 }
 
-.loginForm{
+.registerForm{
     margin-top: 20px;
     display: flex;
     flex-direction: column;
-    background-color: rgba(37, 32, 32, 0.915);
+    background-color: rgb(37, 32, 32);
     padding: 35px;
     border-radius: 15px;
+
 }
 
-.loginForm label {
-    background-color: rgba(37, 32, 32, 0.915);
+.registerForm > label {
     margin: 10px 0;
     color: aliceblue;
+    background-color: transparent;
 
 }
 
-.loginInput{
+.registerInput{
     padding: 10px;
     background-color: #444;
     border: none;
     border-radius: 10px;
-    color: lightblue;
+    color:rgba(0, 255, 255, 0.692);
+
 }
 
-.loginButton {
+.registerButton {
     margin-top: 20px;
     cursor: pointer;
-    background-color: rgba(174, 4, 4, 0.614);
+    background-color: lightgreen;
     border: none;
-    color: aliceblue;
+    color: #444;
     border-radius: 10px;
     padding: 10px;
 }
 
-.loginRegisterButton{
+.registerLoginButton{
     position: absolute;
     top: 60px;
     right: 20px;
-    background-color: lightgreen;
+    background-color: rgba(174, 4, 4, 0.686);
     cursor: pointer;
     border: none;
     padding: 10px;
-    color: #444;
+    color: aliceblue;
     border-radius: 10px;
 }

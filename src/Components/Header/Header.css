@@ -28,19 +28,20 @@
     position: absolute;
     top: 40%;
     font-size: 55px;
-    font-family: Roboto mono;
+    font-family: fantasy;
     background-color: transparent;
-    color: rgb(255, 255, 255);
+    color: rgba(255, 255, 255, 0.742);
 }
 
 .HeaderTitleLarge {
     position: absolute;
     top: 53%;
     font-size: 50px;
-    font-family: Roboto, italic;
+    font-family: fantasy, italic;
     margin-top: 20px;
     background-color: transparent;
-    color: rgb(247, 247, 247);
+    color: rgba(255, 255, 255, 0.742);
+    
 }
 
 .HeaderImg {
