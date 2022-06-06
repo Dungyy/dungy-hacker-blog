@@ -53,6 +53,7 @@
     color: #444;
     border-radius: 10px;
     padding: 10px;
+    font-family: fantasy;
 }
 
 .registerLoginButton{
@@ -65,4 +66,6 @@
     padding: 10px;
     color: aliceblue;
     border-radius: 10px;
+    font-family: fantasy;
+
 }
