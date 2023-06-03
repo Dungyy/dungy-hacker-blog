@@ -2,7 +2,7 @@ import React from "react";
 import Header from "../../Components/Header/Header";
 import Posts from "../../Components/Posts/Posts";
 import SideBar from "../../Components/SideBar/SideBar";
-import "./home.css"
+import "./Home.css"
 
 export default function Home() {
   return (
